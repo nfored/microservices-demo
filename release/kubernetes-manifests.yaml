@@ -346,7 +346,7 @@ spec:
   type: LoadBalancer
   selector:
     app: frontend
-  LoadBalancerIp: 192.168.142.207   
+  loadBalancerIP: 192.168.142.207  
   ports:
   - name: http
     port: 80
